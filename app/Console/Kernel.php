@@ -27,9 +27,9 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->job(new importPSI())->everyMinute();
+        $schedule->job(new importPSI())->everyMinute();
         // $schedule->job(new importPSI())->everyThreeMinutes();
-        $schedule->job(new importPSI())->hourly();
+        // $schedule->job(new importPSI())->hourly();
     }
 
     /**
