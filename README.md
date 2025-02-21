@@ -1,26 +1,15 @@
-![Dark Mode](https://i.imgur.com/1SSnzYd.png)
+# PageSpeed App
 
-![Full Table](https://i.imgur.com/yIeivkm.png)
+## 簡介
+**PageSpeed App** 是一個基於 Laravel 框架的 Web 應用程式，旨在提供網站速度測試和性能分析功能。透過整合 Google PageSpeed Insights API，使用者可以輸入網站 URL，獲取該網站的性能評分和優化建議。
 
+## 功能特性
+- **網站性能測試**：輸入任意網站 URL，獲取該網站的 PageSpeed 評分。
+- **優化建議**：提供提升網站速度和性能的具體建議。
+- **歷史記錄**：保存測試結果，方便日後查詢和比較。
 
-## Installation
-
-You can install the package via composer:
-
-``` bash
-composer install
-```
-
-## Testing
-
-## Changelog
-
-## Contributing
-
-## Security Vulnerabilities
-
-## Credits
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+## 環境需求
+- **PHP**：8.1 或以上版本
+- **資料庫**：MySQL 8.0 或以上版本
+- **Composer**：PHP 的套件管理工具
+- **Node.js**：16 或以上版本（如需使用前端構建工具）
